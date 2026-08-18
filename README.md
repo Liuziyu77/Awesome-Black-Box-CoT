@@ -16,17 +16,17 @@ This list focuses on methods that recover or reconstruct reasoning traces that a
 
 ## Papers
 
-| Paper | Description |
-| --- | --- |
-| [**Stealing Reasoning Traces from Proprietary LLM APIs**](https://arxiv.org/abs/2608.09867) (2026) | Recovers encrypted reasoning traces by replaying them across compatible models from the same provider. Evaluated on Anthropic, OpenAI, and Google. |
-| [**How to Steal Reasoning Without Reasoning Traces**](https://arxiv.org/abs/2603.07267) (2026) | Reconstructs full reasoning traces from black-box inputs, answers, and optional reasoning summaries using trace-inversion models. |
+| Date | Paper | Description |
+| --- | --- | --- |
+| 2026-08-10 | [**Stealing Reasoning Traces from Proprietary LLM APIs**](https://arxiv.org/abs/2608.09867) | Recovers encrypted reasoning traces by replaying them across compatible models from the same provider. Evaluated on Anthropic, OpenAI, and Google. |
+| 2026-03-07 | [**How to Steal Reasoning Without Reasoning Traces**](https://arxiv.org/abs/2603.07267) | Reconstructs full reasoning traces from black-box inputs, answers, and optional reasoning summaries using trace-inversion models. |
 
 ## Open-Source Projects
 
-| Project | Description | Related Paper |
-| --- | --- | --- |
-| [**Stolen-Thoughts**](https://github.com/mitkox/stolen-thoughts) | Independent, local reproduction of the encrypted-reasoning replay attack using synthetic traces and provider envelope formats. | [Paper](https://arxiv.org/abs/2608.09867) |
-| [**Trace Inversion Attack**](https://github.com/Tingwei-Zhang/Trace_Inversion_Attack) | Official implementation for training inversion models and using reconstructed traces to train student models. | [Paper](https://arxiv.org/abs/2603.07267) |
+| Project | Stars | Description | Related Paper |
+| --- | --- | --- | --- |
+| [**Stolen-Thoughts**](https://github.com/mitkox/stolen-thoughts) | [![GitHub stars](https://img.shields.io/github/stars/mitkox/stolen-thoughts?style=flat-square)](https://github.com/mitkox/stolen-thoughts/stargazers) | Independent, local reproduction of the encrypted-reasoning replay attack using synthetic traces and provider envelope formats. | [Paper](https://arxiv.org/abs/2608.09867) |
+| [**Trace Inversion Attack**](https://github.com/Tingwei-Zhang/Trace_Inversion_Attack) | [![GitHub stars](https://img.shields.io/github/stars/Tingwei-Zhang/Trace_Inversion_Attack?style=flat-square)](https://github.com/Tingwei-Zhang/Trace_Inversion_Attack/stargazers) | Official implementation for training inversion models and using reconstructed traces to train student models. | [Paper](https://arxiv.org/abs/2603.07267) |
 
 ## Contributing
 
