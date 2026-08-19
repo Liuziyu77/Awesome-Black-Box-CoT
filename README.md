@@ -7,7 +7,7 @@ A curated list of projects and papers on extracting hidden reasoning traces from
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/Liuziyu77/Awesome-Black-Box-CoT?style=flat-square&logo=github)](https://github.com/Liuziyu77/Awesome-Black-Box-CoT/stargazers)
 [![Papers](https://img.shields.io/badge/papers-2-blue?style=flat-square)](#papers)
-[![Projects](https://img.shields.io/badge/projects-2-8a2be2?style=flat-square)](#open-source-projects)
+[![Projects](https://img.shields.io/badge/projects-3-8a2be2?style=flat-square)](#open-source-projects)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 </div>
@@ -26,6 +26,7 @@ This list focuses on methods that recover or reconstruct reasoning traces that a
 | Project | Stars | Description | Related Paper |
 | --- | --- | --- | --- |
 | [**Stolen-Thoughts**](https://github.com/mitkox/stolen-thoughts) | [![GitHub stars](https://img.shields.io/github/stars/mitkox/stolen-thoughts?style=flat-square)](https://github.com/mitkox/stolen-thoughts/stargazers) | Independent, local reproduction of the encrypted-reasoning replay attack using synthetic traces and provider envelope formats. | [Paper](https://arxiv.org/abs/2608.09867) |
+| [**Open Thinking Replay**](https://github.com/MING-ZCH/open-thinking-replay) | [![GitHub stars](https://img.shields.io/github/stars/MING-ZCH/open-thinking-replay?style=flat-square)](https://github.com/MING-ZCH/open-thinking-replay/stargazers) | Recovers Claude's private reasoning from thinking signatures through same-model replay, with local byte-length and repeatability verification. Also implements cross-model decoding. | [Paper](https://arxiv.org/abs/2608.09867) |
 | [**Trace Inversion Attack**](https://github.com/Tingwei-Zhang/Trace_Inversion_Attack) | [![GitHub stars](https://img.shields.io/github/stars/Tingwei-Zhang/Trace_Inversion_Attack?style=flat-square)](https://github.com/Tingwei-Zhang/Trace_Inversion_Attack/stargazers) | Official implementation for training inversion models and using reconstructed traces to train student models. | [Paper](https://arxiv.org/abs/2603.07267) |
 
 ## Contributing
